@@ -1,0 +1,33 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar mode="ios">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <!-- <ion-buttons slot="start">
+      <ion-button>
+        <ion-icon slot="icon-only" name="arrow-back" color="condorPrimary"></ion-icon>
+      </ion-button>
+    </ion-buttons> -->
+    <ion-title>
+      <img src="assets/images/logo-condor.png">
+    </ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="showNotifications()">
+        <ion-icon slot="icon-only" color="condorPrimary" name="notifications"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+  <ion-toolbar class="show-store" color="condorPrimary">
+    <ion-item lines="none" [detail]="false">
+      <ion-label (click)="selectStoreFavorite()">Awesome Label</ion-label>
+      <ion-buttons slot="end">
+        <ion-button (click)="selectStoreFavorite()">
+          <ion-icon slot="icon-only" name="chevron-down"></ion-icon>
+        </ion-button>
+        <ion-button (click)="scanProduct()">
+          <ion-icon slot="icon-only" name="barcode"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+    </ion-item>
+  </ion-toolbar>
+</ion-header>

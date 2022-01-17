@@ -1,0 +1,52 @@
+ion-avatar {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+}
+ion-icon{
+ font-size: 20px;
+}
+.avatar-title{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+.linha-menu {
+    font-family: Montserrat, sans-serif;
+    color: grey;
+    margin: 25px 0;
+    font-size: 18px;
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+}
+ion-icon {
+    font-size: 20px;
+}
+@media (min-width: 700px) {
+    ion-avatar {
+        margin: 0 auto;
+        width: 200px;
+        height: 200px;
+    }
+    ion-icon{
+        font-size: 40px;
+    }
+    .avatar-title{
+        margin-top: 30px;
+        text-align: center;
+        font-weight: 600;
+    }
+    .linha-menu {
+        font-family: Montserrat, sans-serif;
+        color: grey;
+        margin: 40px 0;
+        font-size: 30px;
+        display: flex;
+        align-content: center;
+        justify-content: flex-end;
+    }
+    ion-icon {
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,391 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+// @import '~animate.css/animate.min';
+// .col-6-space-between {
+//   padding: 3px;
+// }
+// ion-searchbar {
+//   input {
+//     border-radius: 100px !important;
+//   }
+// }
+// .versao-app {
+//   margin-top: 20px;
+//   font-size: 10px;
+// }
+// /* Optional CSS utils that can be commented out */
+// .card-premios-body{
+//   display: flex;
+//   justify-content: center;
+//   position: relative;
+//   color: var(--ion-color-condor-primary-contrast);
+//   margin: 20px 0;
+//   width: 225px;
+//   box-shadow: 1.5px 1.5px 1.5px 1.5px rgba(0,0,0,0.25);
+// }
+// .background-app {
+//   padding: 0;
+//   background: var(--ion-color-condor-backgorund);
+// }
+// .alinhar-centro-horizontal-vertical {
+//   display: flex !important;
+//   align-items: center !important;
+//   justify-content: center !important;
+// }
+// .titulo {
+//   margin: 20px 0;
+//   color: var(--ion-color-condor-secondary);
+//   font-weight: bold;
+//   font-size: 20px;
+// }
+// ion-item {
+//   --background: var(--ion-color-condor-backgorund);
+//   border: none;
+// }
+// ion-content {
+// --background: var(--ion-color-condor-backgorund);
+
+// }
+// .alinhar-centro-vertical {
+//   align-items: center !important;
+//   margin: auto 0 !important;
+// }
+// .alinhar-direita {
+//   text-align: right;
+//    float: right;
+// }
+// .alinhar-esquerda{
+//   text-align: left;
+//    float: left;
+// }
+// .page-margin-bottom {
+//   height: 40px;
+// }
+// select {
+//   background: white;
+// }
+// ion-toggle {
+//   height: 20px;
+// }
+// .container-alerta {
+//   box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.25);
+//   align-self: center;
+//   margin: 40% 20px;
+//   height: 25%;
+//   font-size: 20px;
+//   font-family: Montserrat, sans-serif;
+//   ion-icon {
+//     color: red;
+//     font-size: 35px
+//   }
+// }
+// .modal-titles {
+//   margin-top: 15px;
+//   font-weight: bold;
+//   font-family: Montserrat, sans-serif;
+//   color: var(--ion-color-condor-primary)
+// }
+// .titulo-widgets {
+//   font-family: Montserrat, sans-serif;
+//   color: var(--ion-color-condor-primary);
+//   font-size: 18px;
+//   margin: 20px 0 0;
+//   b {
+//     margin-left: 3px
+//   }
+// }
+// select {
+//   width: 95%;
+//   height: 40px;
+//   border: grey 1px solid;
+//   margin: 10px 0;
+//   border-radius: 5px !important;
+//   padding: 0 5px;
+//   color: var(--ion-color-primary);
+// }
+// .componente-modal .mat-dialog-container {
+//   padding: 0;
+//   background: white;
+//   width: 100vw;
+//   height: 400px
+// }
+// .data-compra-resgate {
+//   color: var(--ion-color-primary);
+//   background: white;
+//   border-radius: 5px;
+//   font-weight: 300;
+//   font-size: 13px;
+// }
+// .card-body-decoration-product {
+//   img {
+//     max-height: 20vw;
+//     margin: 10px 0;
+//   }
+//   .alcool {
+//     position: absolute;
+//     z-index: 100;
+//     top: 0;
+//     left: 0;
+//     width: 30px;
+//     height: 30px;
+//     background-color: rgb(146, 9, 9);
+//     border-radius: 0 0 10px;
+//     p{
+//       font-size: 0.9rem;
+//       color: #fff;
+//       text-align: center;
+//       font-weight: 600;
+//       margin: 5px 0;
+//     }
+//   }
+//   padding: 0 10px;
+//   position: relative;
+//   height: 85vw;
+//   width: 100%;
+//   color: grey;
+//   background: white;
+//   border-radius: 5px;
+//   font-weight: 500;
+//   font-size: 13px;
+//   display: flex;
+//   margin: 0 2px;
+//   align-items: flex-start !important;
+//   text-align: left;
+//   box-shadow: 1px 1px 1px 1px rgba(100,100,100,0.25);
+// }
+// .product-card-icons {
+//   width: 100%;
+//   display: flex !important;
+//   justify-content: space-between;
+// }
+// .product-clube {
+//   font-size: 10px;
+//   color: darkgrey;
+// }
+// .scanner-alert {
+//   height: 100vh;
+//   width: 100vw;
+//   background: var(--ion-color-condor-primary);
+//   --background: var(--ion-color-condor-primary);
+//   color: white;
+//   --spinner-color: white;
+// }
+
+// .card-body-decoration {
+//   padding: 5px 0;
+//   color: var(--ion-color-primary);
+//   background: white;
+//   border-radius: 5px;
+//   font-weight: 600;
+//   font-size: 13px;
+//   display: flex;
+//   margin: 10px 2px;
+//   align-items: center !important;
+//   box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.25);
+// }
+// .container-card {
+//   background: white;
+//   border-radius: 10px;
+//   margin: 20px 0;
+//   font-weight: 400;
+//   box-shadow: 0.75px 0.75px 0.75px 0.75px rgba(150,150,150,0.25);
+//   padding: 10px 10px;
+//   font-size: 13px;
+//   position: relative;
+//   font-family: Montserrat, sans-serif;
+// }
+// .balao-parabens {
+//   text-align: center;
+//   background: white;
+//   border-radius: 20px;
+//   margin: 20px 0 0 0;
+//   box-shadow: 1px 1px 1px 1px rgba(150,150,150,0.25);
+//   padding: 20px 10px;
+//   font-size: 13px;
+//   position: relative;
+//   font-family: Montserrat, sans-serif;
+//   color: var(--ion-color-primary);
+//   font-weight: bold;
+//   min-height: 75px;
+//   max-width: 400px;
+// }
+// .triangulo {
+//   width: 0;
+//   height: 0;
+//   margin-left: -40px;
+//   border-left: 25px solid transparent;
+//   border-right: 25px solid transparent;
+//   border-top: 50px solid #ffffff;
+// }
+
+// .bottom-sheet-action-control .action-sheet-group{
+//   --button-color: var(--ion-color-condor-primary) !important;
+//   --color: var(--ion-color-condor-primary) !important;
+// }
+// .listas-de-compras {
+//   padding: 25px 10px;
+//   font-size: 18px;
+// }
+
+
+// .card-lista-de-compras {
+//   font-family: Montserrat, sans-serif;
+//   height: 60px;
+//   padding: 0;
+//   font-size: 15px;
+// }
+// ::ng-deep mat-checkbox {
+//   margin: 0;
+//   padding: 0;
+// }
+// .titulo-autor {
+//   font-size: 15px;
+//   background: white;
+//   font-family: Montserrat, sans-serif;
+// }
+// .checkbox-col {
+//   background: var(--ion-color-condor-primary);
+//   height: 97%;
+//   margin: 0;
+//   padding: 0;
+//   box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.25);
+// }
+// ion-icon {
+//   color: white;
+//   font-size: 30px;
+// }
+// ion-input {
+//   background: #dddddd;
+//   --padding-start: 10px !important;
+// }
+// form {
+//   padding: 10px;
+// }
+// mat-form-field {
+//   width: 100%;
+// }
+// .suffix-icon {
+//   right: 15px;
+//   background: transparent !important;
+//   z-index: 12;
+//   border: none !important;
+//   outline: none !important;
+//   height: 100%;
+// }
+// .coluna-submit{
+//   background: #dddddd;
+//   height: 100%;
+// }
+// .delete-col {
+//   background: var(--ion-color-condor-secondary);
+//   height: 97%;
+//   margin: 0;
+//   padding: 0;
+//   border-radius: 0 5px 5px 0;
+//   box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.25);
+// }
+// .titulo-lista-de-compras {
+//   font-family: Montserrat, sans-serif;
+//   font-size: 18px;
+//   padding: 10px;
+//   font-weight: bold;
+//   background: white;
+// }
+// //ion-slides {
+// //  .swiper-pagination {
+// //    bottom: inherit ! important;
+// //      //bottom: 0 !important;
+// //      //span{
+// //      //  width: 15px !important;
+// //      //  border-radius: 5px !important;
+// //      //}
+// //  }
+// //}
+// .buttonCss {
+
+//   button.alert-button:nth-child(1){
+//     color: darkgrey;
+//   }
+
+//   button.alert-button:nth-child(2){
+//     background: var(--ion-color-condor-primary);
+//     color: white;
+//   }
+// }
+// .slick-dots li button::before {
+//   font-size: 11px;
+//   color: dimgrey;
+//   opacity: 0.7;
+// }
+
+// .slick-dots li.slick-active button::before {
+//   color: var(--ion-color-condor-primary);
+//   opacity: 1;
+// }
+// .slick-track {
+//   transition: fade 2000ms ease-out;
+//   infinite: true;
+// }
+// /* the slides */
+// //.slick-slide {
+// //  margin: 0 5px;
+// //}
+// /* the parent */
+// .product-card-text-wrap {
+//   display: -webkit-box;
+//   -webkit-line-clamp: 2; /** número de linhas que você quer exibir */
+//   -webkit-box-orient: vertical;
+//   overflow: hidden;
+//   text-overflow: ellipsis;
+//   padding: 0;
+// }
+// //@media (min-width: 325px) {
+// //  .product-card-text-wrap {
+// //    height: 50px;
+// //    overflow: hidden;
+// //  }
+// //}
+// //@media (min-width: 350px) {
+// //  .product-card-text-wrap {
+// //    height: 50px;
+// //    overflow: hidden;
+// //  }
+// //}
+// //@media (min-width: 375px) {
+// //  .product-card-text-wrap {
+// //    height: 50px;
+// //    overflow: hidden;
+// //  }
+// //}
+// //@media (min-width: 400px) {
+// //  .product-card-text-wrap {
+// //    height: 50px;
+// //    overflow: hidden;
+// //  }
+// //}
+// //@media (min-width: 450px) {
+// //  .product-card-text-wrap {
+// //    height: 50px;
+// //
+// //    overflow: hidden;
+// //
+// //  }
+// //}
+

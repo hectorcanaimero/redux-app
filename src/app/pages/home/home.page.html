@@ -1,0 +1,59 @@
+<app-header-widget></app-header-widget>
+
+
+<!-- <app-header-lojas-condor-busca></app-header-lojas-condor-busca>
+<ion-content *ngIf="showContent === 'visible'"
+             [@fadeIn] = "showHome"
+             (ionScroll)="onScroll($event)"
+             [scrollEvents]="true"
+             #content
+             class="background-app" >
+  <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+  <div style="margin-top: -10px;" >
+    <app-feeds position="feeds" [feedGS]="feedUsuario" ></app-feeds>
+  </div>
+  <div  [@fadeIn] = "showHome"><app-feeds position="medium" [items$]="items$"></app-feeds></div>
+  <div [@fadeIn] = "showHome">
+    <app-slide-ofertas [textoInicial] ="config?.carousel1.name" [ofertasRecebidas]="exclusiva$ | async"
+                       corTitulo="color: var(--ion-color-condor-primary)" style="background-color: #FFF697; padding: 10px 0"></app-slide-ofertas>
+  </div>
+  <div [@fadeIn] = "showHome">
+  <app-slide-icons id="slidePromocao"  [@fadeIn] = "showHome" style="color: var(--ion-color-condor-secondary); padding-left: 15px" [data] = "(categorias$ | async)"
+                   [tituloPagina] = "config?.carousel1.name" (botaoClicado) = "departamentoSelecionado($event)">
+
+  </app-slide-icons></div>
+  <div [@fadeIn] = "showHome">
+    <app-slide-ofertas
+            exibirTitulo = 'false'
+            [ofertasRecebidas]="ofertasDia$ | async">
+
+    </app-slide-ofertas></div>
+  <div [@fadeIn] = "showHome">
+    <app-feeds position="carousel" [items$]="items$"></app-feeds>
+  </div>
+  <div [@fadeIn] = "showHome">
+    <app-slide-ofertas [textoInicial]="config?.carousel2.name"
+                       [ofertasRecebidas]="clube$ | async"
+                       corTitulo="color: var(--ion-color-condor-secondary)" style="margin-top: 25px">
+
+    </app-slide-ofertas>
+  </div>
+  <div [@fadeIn] = "showSaldo"><app-saldo></app-saldo></div>
+  <div [@fadeIn] = "showHome"><app-feeds position="bottom" [items$]="items$"></app-feeds></div>
+  <div [@fadeIn] = "showHome"> <app-slide-ofertas
+    [ofertasRecebidas]="eletro$ | async"
+    textoInicial="Ofertas"
+    textoNegrito="Eletro"
+    style="color: var(--ion-color-condor-secondary); padding-left: 15px"
+  ></app-slide-ofertas></div>
+  <div [@fadeIn] = "showHome"> <app-dicas-familia [dicaDaFamilia] = "dicaDaFamilia"></app-dicas-familia></div>
+  <div [@fadeIn] = "showHome"><app-carousel-premios [premios] = "premios$ | async"></app-carousel-premios></div>
+  <div class="page-margin-bottom"></div>
+</ion-content>
+<ion-content *ngIf="showContent === 'invisible'">
+  <ion-skeleton-text animated class="skeleton-header"></ion-skeleton-text>
+  <ion-skeleton-text animated class="skeleton-header-bar"></ion-skeleton-text>
+  <ion-skeleton-text animated class="skeleton-slide"></ion-skeleton-text>
+</ion-content> -->

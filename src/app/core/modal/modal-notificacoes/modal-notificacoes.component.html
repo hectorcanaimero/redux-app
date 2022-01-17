@@ -1,0 +1,27 @@
+<!-- <app-header-lojas-condor exibirLojas="false"></app-header-lojas-condor> -->
+<!-- <ion-content>
+  <div class="container" *ngIf="temNotificacao ; else albertoAvisa">
+    <div *ngFor="let notificacaoAtual of notificacoes">
+      <div class="row card-body-decoration card-notificacoes" (click)="fcmService.abrirNotificacao(notificacaoAtual.tipo, notificacaoAtual)">
+        <div class="col-3 alinhar-centro-horizontal-vertical valor" >
+          <img [src] = "fcmService.notificationType(notificacaoAtual.tipo) " [alt]="notificacaoAtual.tipo">
+        </div>
+        <div class="col-9">
+          <div class="mensagem-notificacao-titulo" >{{notificacaoAtual.titulo}}</div>
+          <div class="mensagem-notificacao" >{{notificacaoAtual.mensagem || notificacaoAtual.descricao}}</div>
+        </div>
+a
+      </div>
+    </div>
+  </div>
+  <ng-template #albertoAvisa>
+    <app-alberto-ajuda *ngIf="temNotificacao !== undefined" primeiraFrase="Olá! Ainda não há notificações para você." segundaFrase="Mas, fique de olho, pois diversas promoções aparecerão aqui!"></app-alberto-ajuda>
+  </ng-template>
+</ion-content> -->
+<ion-footer>
+  <ion-toolbar>
+    <ion-button (click)="onClose()" expand="block" fill="clear" shape="round">
+      Fechar
+    </ion-button>
+  </ion-toolbar>
+</ion-footer>

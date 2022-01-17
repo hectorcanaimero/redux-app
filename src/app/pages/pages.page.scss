@@ -1,0 +1,20 @@
+ion-fab{
+  bottom: 30px;
+}
+
+ion-tab-bar{
+  --border: 0px;
+  --color-selected: #000 !important;
+  background-color: var(--ion-color-condor-primary);
+  ion-tab-button {
+    background-color: var(--ion-color-condor-primary) !important;
+    --ripple-color: var(--ion-color-condor-secondary);
+    --color: #cccccc;
+    --color-selected: white;
+    ion-label {
+      p{ color: #fff; }
+    }
+  }
+}
+
+

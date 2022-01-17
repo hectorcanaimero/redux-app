@@ -1,0 +1,32 @@
+ion-toolbar {
+  --background: #fff;
+  ion-title {
+    img {
+      height: 30px;
+    }
+  }
+}
+
+
+.show-store {
+  --min-height: 45px;
+  ion-item {
+    --background: none;
+    --min-height: 40px;
+    --padding-start: 10px;
+    --inner-padding-end: 0px;
+    ion-label {
+      --color: #fafafa;
+    }
+    ion-buttons {
+      ion-button {
+        --padding-end: 5px;
+      }
+    }
+    ion-icon {
+      color: #fafafa;
+      width: 18px;
+      height: 18px;
+    }
+  }
+}

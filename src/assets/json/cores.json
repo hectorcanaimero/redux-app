@@ -1,0 +1,30 @@
+[
+  {
+    "active": true,
+    "primary": {
+      "--ion-color-condor-primary": "#065ea3",
+      "--ion-color-condor-primary-rgb": "6,94,163",
+      "--ion-color-condor-primary-contrast": "#ffffff",
+      "--ion-color-condor-primary-contrast-rgb": "255,255,255",
+      "--ion-color-condor-primary-shade": "#05538f",
+      "--ion-color-condor-primary-tint": "#1f6eac"
+    },
+    "secondary": {
+      "--ion-color-condor-secondary": "#de2624",
+      "--ion-color-condor-secondary-rgb": "222,38,36",
+      "--ion-color-condor-secondary-contrast": "#ffffff",
+      "--ion-color-condor-secondary-contrast-rgb": "255,255,255",
+      "--ion-color-condor-secondary-shade": "#c32120",
+      "--ion-color-condor-secondary-tint": "#e13c3a"
+    },
+    "tertiary": {
+      "--ion-color-condor-tertiary": "#fe8d15",
+      "--ion-color-condor-tertiary-rgb": "254,141,21",
+      "--ion-color-condor-tertiary-contrast": "#ffffff",
+      " --ion-color-condor-tertiary-contrast-rgb": "0,0,0",
+      "--ion-color-condor-tertiary-shade": "#e07c12",
+      "--ion-color-condor-tertiary-tint": "#fe982c"
+    }
+  }
+]
+

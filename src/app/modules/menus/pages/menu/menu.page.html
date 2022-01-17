@@ -1,0 +1,164 @@
+<app-header-widget></app-header-widget>
+<ion-content>
+  <ion-list lines="none">
+    <ion-item button (click)="abrirNotificacoes()">
+      <ion-label>Meus dados</ion-label>
+      <ion-icon src="assets/icon/menu/user.svg" slot="start" color="condorPrimary"></ion-icon>
+    </ion-item>
+    <ion-item button (click)="abrirNotificacoes()">
+      <ion-label>Alterar Senha</ion-label>
+      <ion-icon src="assets/icon/menu/senha.svg" slot="start" color="condorPrimary"></ion-icon>
+    </ion-item>
+    <ion-item button (click)="abrirNotificacoes()">
+      <ion-label>Notificações</ion-label>
+      <ion-icon src="assets/icon/menu/notificacao.svg" slot="start" color="condorPrimary"></ion-icon>
+    </ion-item>
+    <ion-item button (click)="abrirNotificacoes()">
+      <ion-label>Notificações</ion-label>
+      <ion-icon src="assets/icon/menu/notificacao.svg" slot="start" color="condorPrimary"></ion-icon>
+    </ion-item>
+    <ion-item button (click)="abrirNotificacoes()">
+      <ion-label>Notificações</ion-label>
+      <ion-icon src="assets/icon/menu/notificacao.svg" slot="start" color="condorPrimary"></ion-icon>
+    </ion-item>
+    <ion-item button (click)="abrirNotificacoes()">
+      <ion-label>Notificações</ion-label>
+      <ion-icon src="assets/icon/menu/notificacao.svg" slot="start" color="condorPrimary"></ion-icon>
+    </ion-item>
+    <ion-item button (click)="abrirNotificacoes()">
+      <ion-label>Notificações</ion-label>
+      <ion-icon src="assets/icon/menu/notificacao.svg" slot="start" color="condorPrimary"></ion-icon>
+    </ion-item>
+    <ion-item button (click)="abrirNotificacoes()">
+      <ion-label>Notificações</ion-label>
+      <ion-icon src="assets/icon/menu/notificacao.svg" slot="start" color="condorPrimary"></ion-icon>
+    </ion-item>
+    <ion-item button (click)="abrirNotificacoes()">
+      <ion-label>Notificações</ion-label>
+      <ion-icon src="assets/icon/menu/notificacao.svg" slot="start" color="condorPrimary"></ion-icon>
+    </ion-item>
+    <ion-item button (click)="abrirNotificacoes()">
+      <ion-label>Notificações</ion-label>
+      <ion-icon src="assets/icon/menu/notificacao.svg" slot="start" color="condorPrimary"></ion-icon>
+    </ion-item>
+    <ion-item button (click)="abrirNotificacoes()">
+      <ion-label>Notificações</ion-label>
+      <ion-icon src="assets/icon/menu/notificacao.svg" slot="start" color="condorPrimary"></ion-icon>
+    </ion-item>
+    <ion-item button (click)="abrirNotificacoes()">
+      <ion-label>Notificações</ion-label>
+      <ion-icon src="assets/icon/menu/notificacao.svg" slot="start" color="condorPrimary"></ion-icon>
+    </ion-item>
+  </ion-list>
+</ion-content>
+
+<!-- <app-header-lojas-condor-busca></app-header-lojas-condor-busca>
+<ion-content>
+  <app-avatar-usuario  *ngIf="nome" nomeUsuario="{{nome[0] | tituloPortugues}}"
+                       [avatarUsuario] ="avatarUser"
+                       [unidadeCondor]="lojaFavorita">
+  </app-avatar-usuario>
+  <div class="container" style="margin-top: 30px">
+    <div class="row linha-menu" (click)="navegateUrl('/pages/meus-dados', 'Meus Dados')">
+      <div class="col-12 d-flex">
+        <ion-icon src="assets/icon/menu/user.svg" slot="start" color="condorPrimary"></ion-icon>
+        <div style="margin-left: 20px">Meus dados</div>
+      </div>
+    </div>
+    <div class="row linha-menu" (click)="alterarSenha()">
+      <div class="col-12 d-flex">
+        <ion-icon src="assets/icon/menu/senha.svg" slot="start" color="condorPrimary"></ion-icon>
+        <div style="margin-left: 20px">Alterar Senha</div>
+      </div>
+    </div>
+    <div class="row linha-menu"  (click)="navegateUrl('/pages/lojas', 'Tabloide de ofertas')">
+      <div class="col-12 d-flex">
+        <ion-icon  name="storefront-outline" slot="start" color="condorPrimary"></ion-icon>
+        <div style="margin-left: 20px">Nossa Lojas</div>
+      </div>
+    </div>
+    <div class="row linha-menu" (click)="comprarOnline()">
+      <div class="col-12 d-flex">
+        <ion-icon src="assets/icon/pages/carrinho.svg" slot="start" color="condorPrimary"></ion-icon>
+        <div style="margin-left: 20px">Compre Online</div>
+      </div>
+    </div>
+    <div class="row linha-menu" (click)="openFavorites()">
+      <div class="col-12 d-flex">
+        <ion-icon name ="heart-outline" slot="start" color="condorPrimary"></ion-icon>
+        <div style="margin-left: 20px">Favoritos</div>
+      </div>
+    </div>
+
+    <div class="row linha-menu" (click)="navegateUrl('/pages/lista-de-compras', 'Histórico de Compras')">
+      <div class="col-12 d-flex">
+        <ion-icon src="assets/icon/menu/historico.svg" slot="start" color="condorPrimary"></ion-icon>
+        <div style="margin-left: 20px">Listas de compras</div>
+      </div>
+    </div>
+    <div class="row linha-menu" (click)="navegateUrl('/pages/historico-compras', 'Histórico de Compras')">
+      <div class="col-12 d-flex">
+        <ion-icon src="assets/icon/menu/historico.svg" slot="start" color="condorPrimary"></ion-icon>
+        <div style="margin-left: 20px">Histórico de compras</div>
+      </div>
+    </div>
+
+    <div class="row linha-menu" (click)="navegateUrl('/pages/tabloide', 'Tabloide de ofertas')">
+      <div class="col-12 d-flex">
+        <ion-icon src="assets/icon/menu/tabloide.svg" slot="start" color="condorPrimary"></ion-icon>
+        <div style="margin-left: 20px">Tabloide de ofertas</div>
+      </div>
+    </div>
+    <div class="row linha-menu" (click)="verNumerosDaSorte()">
+      <div class="col-12 d-flex">
+        <ion-icon src="assets/icon/numero-da-sorte.svg" slot="start" color="condorPrimary"></ion-icon>
+        <div style="margin-left: 20px">Números da sorte</div>
+      </div>
+    </div>
+    <div class="row linha-menu" (click)="abrirModal('ddv', 'Dinheiro de Volta')">
+      <div class="col-12 d-flex">
+        <ion-icon src= "assets/icon/dinheiro-de-volta.svg" slot="start" color="condorPrimary"></ion-icon>
+        <div style="margin-left: 20px">Dinheiro de volta</div>
+      </div>
+    </div>
+    <div class="row linha-menu" (click)="abrirModal('tdv', 'Troco de Volta')">
+      <div class="col-12 d-flex">
+        <ion-icon src= "assets/icon/troco-de-volta.svg" slot="start" color="condorPrimary"></ion-icon>
+        <div style="margin-left: 20px">Troco de volta</div>
+      </div>
+    </div>
+    <div class="row linha-menu" (click)="acessibilidade()">
+      <div class="col-12 d-flex">
+        <ion-icon name="settings-outline" slot="start" color="condorPrimary"></ion-icon>
+        <div style="margin-left: 20px">Configurações</div>
+      </div>
+    </div>
+    <div class="row linha-menu" (click)="abrirNotificacoes()">
+      <div class="col-12 d-flex">
+        <ion-icon src="assets/icon/menu/notificacao.svg" slot="start" color="condorPrimary"></ion-icon>
+        <div style="margin-left: 20px">Notificações</div>
+      </div>
+    </div>
+    <div class="row linha-menu" (click)="faleConosco()">
+      <div class="col-12 d-flex">
+        <ion-icon src="assets/icon/menu/faleConosco.svg" slot="start" color="condorPrimary"></ion-icon>
+        <div style="margin-left: 20px">Fale conosco</div>
+      </div>
+    </div>
+
+    <div class="row linha-menu" *ngFor="let content of content$ | async" (click)="onMdalContent(content, content.name)" lines="none" >
+      <div class="col-12 d-flex"  >
+        <ion-icon [src]="iconesLista" slot="start" color="condorPrimary"></ion-icon>
+        <div style="margin-left: 20px">{{ content.name | tituloPortugues}}</div>
+      </div>
+    </div>
+    <div class="row linha-menu" (click)="logout()">
+      <div class="col-12 d-flex">
+        <ion-icon src="assets/icon/menu/logout.svg" slot="start" color="condorPrimary"></ion-icon>
+        <div style="margin-left: 20px">Encerrar sessão</div>
+      </div>
+    </div>
+  </div>
+  <app-redes-sociais></app-redes-sociais>
+  <div class="page-margin-bottom"></div>
+</ion-content> -->
